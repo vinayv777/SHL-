@@ -35,3 +35,4 @@ print("Transcript:", result["transcript"])
 print("Score:", result["grammar_score"])
 for issue in result["issues"]:
     print("-", issue.message)
+    
